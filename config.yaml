@@ -10,7 +10,7 @@ arch:
   - i386
 startup: "application"
 devices: 
-  - "/dev/ttyUSB0"
+  - "/dev/ttyUSB2"
 options:
   mqtt_host: "localhost"
   mqtt_host_port: 1883
