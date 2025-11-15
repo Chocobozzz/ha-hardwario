@@ -10,7 +10,7 @@ arch:
   - i386
 startup: "application"
 devices: 
-  - "/dev/ttyUSB2"
+  - "/dev/serial/by-id/usb-0403_6015_bc-usb-dongle-r1.0-836d19832c12-if00-port0"
 options:
   mqtt_host: "localhost"
   mqtt_host_port: 1883
